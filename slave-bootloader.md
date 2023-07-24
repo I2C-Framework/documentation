@@ -7,10 +7,15 @@ The bootloader starts the microcontroller firmware and also enables the firmware
 ### Hardware
 
 A ST-LINK box
+
 ![ST-LINK box](images/st_link.jpg)
+
 A Tag-Connect connector
+
 ![Tag-Connect connector](images/tag_connect.png)
+
 The printed circuit board using the STM32G071GBU6 microcontroller
+
 > TODO Image
 
 ### Software
