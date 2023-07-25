@@ -57,8 +57,22 @@ This compiles the source code and uploads it to the microcontroller.
 
 ### Implementation
 
-To implement the firmware using the ST-LINK box and the Tag-Connect connector, follow the steps below:
-1. Place the bootloader binary file at the root of the project with the name slave_bootloader.bin.
+#### Hardware
+
+To proceed with programming, please follow these steps:
+* Connect the ST-Link box to the computer using the USB cable.
+* Connect the Tag-Connect connector to the ST-Link box.
+* Connect the Tag-Connect connector to the printed circuit board.
+* Power the printed circuit board.
+
+<p align="center">
+<img src="images/st_link_pcb.png" height="200">
+</p>
+
+#### Software
+
+Follow the steps below:
+1. Place the bootloader binary file at the root of the project with the name slave_bootloader.bin ([Generate bootloader binary file](slave-bootloader.md##Generate-the-binary-file)).
 2. Open the project in Mbed Studio.
 3. Compile the project.
 4. Download the project to the microcontroller.
