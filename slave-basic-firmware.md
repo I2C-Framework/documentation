@@ -33,15 +33,22 @@ In this section, the implementation of firmware on a printed circuit board is ex
 
 A ST-LINK box
 
-![ST-LINK box](images/st_link.jpg)
+<p align="center">
+<img src="images/st_link.png" height="150">
+</p>
 
 A Tag-Connect connector
 
-![Tag-Connect connector](images/tag_connect.png)
+
+<p align="center">
+<img src="images/tag_connect.png" height="150">
+</p>
 
 The printed circuit board using the STM32G071GBU6 microcontroller
 
-![Example of a printed circuit board](images/pcb_front.png)
+<p align="center">
+<img src="images/pcb_front.png" height="150">
+</p>
 
 #### Software
 
