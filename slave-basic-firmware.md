@@ -41,7 +41,7 @@ A Tag-Connect connector
 
 The printed circuit board using the STM32G071GBU6 microcontroller
 
-> TODO Image
+![Example of a printed circuit board](images/pcb_front.png)
 
 #### Software
 

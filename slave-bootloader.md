@@ -16,7 +16,7 @@ A Tag-Connect connector
 
 The printed circuit board using the STM32G071GBU6 microcontroller
 
-> TODO Image
+![Example of a printed circuit board](images/pcb_front.png)
 
 ### Software
 
@@ -31,16 +31,15 @@ To proceed with programming, please follow these steps:
 * Connect the ST-Link box to the computer using the USB cable.
 * Connect the Tag-Connect connector to the ST-Link box.
 * Connect the Tag-Connect connector to the printed circuit board.
+* Power the printed circuit board.
 
-> TODO Image
+![Setup](images/st_link_pcb.png)
 
 ### Software
 
 To begin with, you need to clone the [slave bootloader](https://github.com/I2C-Framework/slave_bootloader) Git repository.
 Next, the project must be opened in Mbed Studio.
 The source code must then be compiled and uploaded to the microcontroller.
-
-> TODO Image
 
 ## Warning
 
