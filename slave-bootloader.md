@@ -50,6 +50,13 @@ To begin with, you need to clone the [slave bootloader](https://github.com/I2C-F
 Next, the project must be opened in Mbed Studio.
 The source code must then be compiled and uploaded to the microcontroller.
 
+## Generate the binary file
+
+To generate the binary file, follow the steps below:
+1. Open the project in Mbed Studio.
+2. Compile the project.
+3. Get the binary file from the `BUILD/<target>/GCC_ARM/slave_bootloader.bin`.
+
 ## Warning
 
 The bootloader is specifically designed to work with the STM32G071GBU6 microcontroller. However, it can be adapted to be compatible with other microcontrollers. In this case, it is important to check and control the memory addresses used in the bootloader source code and adapt them accordingly to match the specifications of the target microcontroller.
