@@ -72,7 +72,7 @@ To proceed with programming, please follow these steps:
 #### Software
 
 Follow the steps below:
-1. Place the bootloader binary file at the root of the project with the name slave_bootloader.bin ([Generate bootloader binary file](slave-bootloader.md##Generate-the-binary-file)).
+1. Place the bootloader binary file at the root of the project with the name slave_bootloader_application.bin ([Generate bootloader binary file](slave-bootloader.md##Generate-the-binary-file)).
 2. Open the project in Mbed Studio.
 3. Compile the project.
 4. Download the project to the microcontroller.

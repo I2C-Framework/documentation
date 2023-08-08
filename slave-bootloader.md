@@ -55,7 +55,7 @@ The source code must then be compiled and uploaded to the microcontroller.
 To generate the binary file, follow the steps below:
 1. Open the project in Mbed Studio.
 2. Compile the project.
-3. Get the binary file from the `BUILD/<target>/ARMC6/slave_bootloader.bin`.
+3. Get the binary file from the `BUILD/<target>/ARMC6/slave_bootloader_application.bin`.
 
 ## Warning
 
